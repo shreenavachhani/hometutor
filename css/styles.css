@@ -32,3 +32,19 @@ img {
     width: 100%;
     border-radius: 10px;
 }
+
+.description-container
+{
+max-width: 800px;
+margin: 40px auto 20px;
+}
+.description-container.floating-image
+{
+max-width:400px;
+}
+.description-container.floating-image.right
+{
+float:right;
+margin-Left:30px;
+margin-bottom:10px;
+}
