@@ -1,18 +1,152 @@
-<form>
-<div class="container">
-  <form action="action_page.php">
+<!DOCTYPE html>
+<html lang="en" class="h-100">
+<head>
+     <!-- Required meta tags always come first -->
+     <meta charset="utf-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+     <meta http-equiv="x-ua-compatible" content="ie=edge">
+ 
+     <!-- Bootstrap CSS -->
+     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+     <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css">
+     <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css">
+     <link rel="stylesheet" href="css/styles.css">
+     <title>Contact Us</title> 
+</head>
 
-    <label for="fname">First Name</label>
-    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+<body class="h-100">
 
-    <label for="lname">Last Name</label>
-    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
-    
-     <label for="phone no">Phone No</label>
-    <input type="numeric" id="phone no"  phone no="" placeholder="">
-
-
-<input type="submit" value="Submit">
-
-  </form>
+    <nav class="navbar navbar-dark navbar-expand-sm fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">Home Tutorials</a>
+          <button class="navbar-toggler" data-toggle="collapse" data-target="#Navbar">
+              <span class="navbar-toggler-icon"></span>
+          </button>
+            
+            <div class="collapse navbar-collapse" id="Navbar">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item"><a class="nav-link" href="/hometuts.html">Home</a></li>
+                    <li class="nav-item active"><a class="nav-link" href="/contact.html">Contact Us</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Here</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Girl</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+  <div class="container my-container">
+    <div class="text-center">
+      <h2>Fill this form and you will be contacted soon..</h2>
+    </div>
+    <form class="my-form">
+      <div class="form-group row">
+          <label for="firstname" class="col-md-2 col-form-label">First Name</label>
+          <div class="col-md-10">
+              <input type="text" class="form-control" id="firstname" name="firstname" placeholder="First Name">
+          </div>
+      </div>
+      <div class="form-group row">
+        <label for="lastname" class="col-md-2 col-form-label">Last Name</label>
+        <div class="col-md-10">
+            <input type="text" class="form-control" id="lastname" name="lastname" placeholder="Last Name">
+        </div>
+      </div>
+      <div class="form-group row">
+        <label for="exampleInputEmail1" class="col-md-2 col-form-label">Email address</label>
+        <div class="col-md-10">
+           <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+           <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+        </div>
+      </div>
+      <div class="form-group row">
+        <label for="exampleFormControlSelect1" class="col-md-2 col-form-label">Board</label>
+        <div class="col-md-10">
+          <select class="form-control" id="exampleFormControlSelect1">
+            <option>SSC</option>
+            <option>ICSE</option>
+            <option>CBSE</option>
+          </select>
+        </div>
+     </div>
+     <div class="form-group row">
+        <label for="exampleFormControlSelect1" class="col-md-2 col-form-label">Standard</label>
+        <div class="col-md-10">
+          <select class="form-control" id="exampleFormControlSelect1">
+            <option>1st</option>
+            <option>2nd</option>
+            <option>3rd</option>
+            <option>4th</option>
+            <option>5th</option>
+            <option>6th</option>
+            <option>7th</option>
+            <option>8th</option>
+            <option>9th</option>
+            <option>10th</option>
+            <option>11th</option>
+            <option>12th</option>
+          </select>
+      </div>
+   </div>
+   <div class="form-group row">
+      <label for="subjects" class="col-md-2 col-form-label">Subjects</label>
+      <div class="col-md-10">
+         <input type="text" class="form-control" id="subjects" name="subjects" aria-describedby="Subject" placeholder="Required Subjects">
+         <small id="Subject" class="form-text text-muted">Seperate subjects with commas [if multiple] </small>
+      </div>
+    </div>
+      <div class="form-group row">
+          <div class="offset-md-2 col-md-10">
+              <button type="submit" class="btn btn-primary">Submit</button>
+          </div>
+      </div>
+      
+    </form>
 </div>
+
+
+    <footer class="footer">
+      <div class="container">
+          <div class="row">
+              <div class=" col-12 col-md-6 footer-col">
+                  <div class="text-center">
+                      <p class="footer-text">Connect With Us</p>
+
+                          <a href="#" class="social-icons"><i class="fa fa-facebook-square fa-2x" aria-hidden="true"></i></a>
+                          <a href="#" class="social-icons"><i class="fa fa-instagram fa-2x" aria-hidden="true"></i></a>
+                          <a href="#" class="social-icons-last"><i class="fa fa-twitter fa-2x" aria-hidden="true"></i></a>
+                      
+                  </div>
+               
+              </div>
+              <div class="co-12 col-md-6 footer-col d-none d-md-block">
+                  <div class="text-center">
+                      <p class="footer-text">Quick access</p>
+                      
+                          <a href="/hometuts.html" class="quickie">Home</a>
+                          <a href="/contact.html" class="active-quickie quickie">Contact Us</a>
+                          <a href="#" class="quickie">Here</a>
+                          <a href="#" class="quickie-last">Girl</a>
+                      
+                      
+                  </div>
+                  
+              </div>
+          </div>
+      </div>
+  </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- jQuery first, then Popper.js, then Bootstrap JS. -->
+<script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+<script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+<script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>   
+</body>

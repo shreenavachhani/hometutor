@@ -17,6 +17,13 @@ h1 {
     padding: 50px 0px 0px 0px;
     z-index: 0; }
 
+.my-container {
+    margin-top: 2em;
+}
+
+.my-form {
+    margin-top: 2em;
+}
 .content-text {
     
     font-size: 150%;
@@ -25,7 +32,7 @@ h1 {
 
 }
 
-.col-content {
+.col-content-img {
     margin: 50px 0px;
 }
 img {
@@ -33,18 +40,52 @@ img {
     border-radius: 10px;
 }
 
-.description-container
-{
-max-width: 800px;
-margin: 40px auto 20px;
+.footer {
+    background-color: blue;
 }
-.description-container.floating-image
-{
-max-width:400px;
+
+.footer-text {
+    color: white;
+    font-size: 120%;
 }
-.description-container.floating-image.right
-{
-float:right;
-margin-Left:30px;
-margin-bottom:10px;
+
+.footer-col {
+    margin: 10px 0px 10px 0px;
+}
+
+.social-icons {
+    color: white;
+    margin-right: 10px;
+}
+
+.social-icons-last {
+    color: white;
+}
+
+.quickie {
+    text-decoration: none;
+    margin-right: 10px;
+    font-size: 110%;
+    color: grey;
+}
+
+.quickie-last {
+    text-decoration: none;
+    font-size: 110%;
+    color: grey;
+}
+
+.active-quickie {
+    text-decoration: none;
+    color: white;
+}
+
+.quickie:hover {
+    text-decoration: none;
+    color: white;
+}
+
+.quickie-last:hover {
+    text-decoration: none;
+    color: white;
 }
